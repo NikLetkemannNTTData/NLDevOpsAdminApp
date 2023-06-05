@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>doca_Concurrent_Work_Items_Count__c</fullName>
+    <externalId>false</externalId>
+    <label>Concurrent Work Items Count</label>
+    <summaryForeignKey>doca_Work_Item_Junction__c.doca_Work_Item_1__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

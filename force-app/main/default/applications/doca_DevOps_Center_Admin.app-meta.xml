@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>doca_Work_Item_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>sf_devops__Work_Item__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#790682</headerColor>
+        <logo>DevOpsAdminLogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>doca</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>DevOps Admin</label>
+    <navType>Standard</navType>
+    <tabs>sf_devops__Environment__c</tabs>
+    <tabs>sf_devops__Work_Item__c</tabs>
+    <tabs>doca_Work_Item_Junction__c</tabs>
+    <tabs>sf_devops__Change_Submission__c</tabs>
+    <tabs>sf_devops__Submit_Component__c</tabs>
+    <tabs>sf_devops__Async_Operation_Result__c</tabs>
+    <tabs>sf_devops__Remote_Change__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>DevOpsNL_UtilityBar</utilityBar>
+</CustomApplication>
