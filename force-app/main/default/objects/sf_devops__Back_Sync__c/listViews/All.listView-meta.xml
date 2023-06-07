@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>sf_devops__Destination_Environment__c</columns>
+    <columns>sf_devops__End_Revision_Counter__c</columns>
+    <columns>sf_devops__Deployment_Result__c</columns>
+    <columns>sf_devops__Operation_Result__c</columns>
+    <columns>sf_devops__Source_Pipeline_Stage__c</columns>
+    <columns>sf_devops__Start_Revision_Counter__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
