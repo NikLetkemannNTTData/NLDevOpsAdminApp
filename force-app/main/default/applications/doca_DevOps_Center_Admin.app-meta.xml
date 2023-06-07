@@ -22,6 +22,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>DevOps Admin</label>
     <navType>Standard</navType>
+    <tabs>sf_devops__Project__c</tabs>
     <tabs>sf_devops__Environment__c</tabs>
     <tabs>sf_devops__Work_Item__c</tabs>
     <tabs>doca_Work_Item_Junction__c</tabs>
