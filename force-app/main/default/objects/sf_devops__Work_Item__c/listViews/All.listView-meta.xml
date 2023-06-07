@@ -3,6 +3,7 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>doca_Concurrent_Work_Items_Count__c</columns>
+    <columns>doca_Concurring_Work_Items_List__c</columns>
     <columns>sf_devops__State__c</columns>
     <columns>sf_devops__Subject__c</columns>
     <columns>sf_devops__Branch__c</columns>
