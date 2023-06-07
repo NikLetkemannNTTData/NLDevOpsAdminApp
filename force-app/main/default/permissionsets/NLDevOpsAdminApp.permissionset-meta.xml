@@ -55,6 +55,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Back_Sync__c.sf_devops__End_Revision_Counter__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Back_Sync__c.sf_devops__Operation_Result__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Comment__c</field>
         <readable>true</readable>
@@ -240,6 +250,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>sf_devops__Back_Sync__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>sf_devops__Change_Submission__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -276,6 +295,10 @@
     </tabSettings>
     <tabSettings>
         <tab>sf_devops__Async_Operation_Result__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>sf_devops__Back_Sync__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>

@@ -29,6 +29,7 @@
     <tabs>sf_devops__Submit_Component__c</tabs>
     <tabs>sf_devops__Async_Operation_Result__c</tabs>
     <tabs>sf_devops__Remote_Change__c</tabs>
+    <tabs>sf_devops__Back_Sync__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>DevOpsNL_UtilityBar</utilityBar>
 </CustomApplication>
