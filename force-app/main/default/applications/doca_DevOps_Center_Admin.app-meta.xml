@@ -9,6 +9,14 @@
         <type>Flexipage</type>
         <pageOrSobjectType>sf_devops__Work_Item__c</pageOrSobjectType>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>doca_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#790682</headerColor>
         <logo>DevOpsAdminLogo</logo>
@@ -22,6 +30,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>DevOps Admin</label>
     <navType>Standard</navType>
+    <tabs>standard-home</tabs>
     <tabs>sf_devops__Project__c</tabs>
     <tabs>sf_devops__Environment__c</tabs>
     <tabs>sf_devops__Work_Item__c</tabs>

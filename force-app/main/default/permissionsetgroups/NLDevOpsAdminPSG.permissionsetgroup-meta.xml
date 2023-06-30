@@ -3,6 +3,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>NLDevOpsAdminPSG</label>
     <permissionSets>NLDevOpsAdminApp</permissionSets>
+    <permissionSets>doca__DevOps_Center_Adoption</permissionSets>
     <permissionSets>sf_devops_InitializeEnvironments</permissionSets>
     <permissionSets>sf_devops_NamedCredentials</permissionSets>
     <permissionSets>sf_devops__DevOps_Center</permissionSets>
