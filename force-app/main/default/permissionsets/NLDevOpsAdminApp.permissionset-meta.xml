@@ -224,11 +224,6 @@
         <field>sf_devops__Work_Item__c.sf_devops__State__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>sf_devops__Work_Item__c.tst_formula__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>NLDevOpsAdminApp</label>
     <objectPermissions>
