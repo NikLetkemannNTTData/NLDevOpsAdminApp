@@ -140,13 +140,6 @@
         <relatedList>sf_devops__Pipeline_Stage__c.sf_devops__Operation_Status__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>VERSION.TITLE</fields>
-        <fields>VERSION.CREATED_DATE</fields>
-        <fields>VERSION.LAST_UPDATE</fields>
-        <fields>SYSTEM_MODSTAMP</fields>
-        <relatedList>ContentDocumentRelatedList</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>NAME</fields>
         <fields>sf_devops__Event_Date__c</fields>
         <fields>sf_devops__Event_Id__c</fields>
